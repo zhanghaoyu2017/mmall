@@ -1,2 +1,0 @@
-# mmall
-mmall_learning
