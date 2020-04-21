@@ -52,6 +52,7 @@ public class CartController {
         if(user ==null){
             return ServerResponse.createByErrorCodeMessage(ResponseCode.NEED_LOGIN.getCode(),ResponseCode.NEED_LOGIN.getDesc());
         }
+
         return iCartService.deleteProduct(user.getId(),productIds);
     }
 }
